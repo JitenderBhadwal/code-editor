@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Code Editor</title>
+</head>
+<body>
+    <div class="code-editor">
+        <div class="code-editor__menu">
+            <button class="code-editor__btn code-editor__btn--run" id="run-button">Run</button>
+            <button class="code-editor__btn code-editor__btn--copy" id="copy-button">Copy</button>
+            <button class="code-editor__btn code-editor__btn--save" id="save-button">Save</button>
+            <button class="code-editor__btn code-editor__btn--lock" id="lock-button">Lock</button>            
+        </div>
+        <textarea class="code-editor__input" id="code" placeholder="Enter your code here..."></textarea>
+        <iframe class="code-editor__output" id="output"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
